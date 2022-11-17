@@ -7,10 +7,11 @@ CREATE TABLE contacts (
   first_name VARCHAR NOT NULL,
   last_name VARCHAR NOT NULL,
   phone_number INT NOT NULL
+  address_id INT
 );
 
 
-CREATE TABLE addresses (
+CREATE TABLE addressesinfo (
   id SERIAL PRIMARY KEY,
   street_name VARCHAR NOT NULL,
   city VARCHAR NOT NULL,
