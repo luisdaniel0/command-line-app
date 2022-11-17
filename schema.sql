@@ -1,12 +1,12 @@
-DROP TABLE IF EXISTS contacts;
-DROP TABLE IF EXISTS addresses;
+DROP TABLE IF EXISTS contactsinfo;
+DROP TABLE IF EXISTS addressesinfo;
 
 
-CREATE TABLE contacts (
+CREATE TABLE contactsinfo (
   id SERIAL PRIMARY KEY,
   first_name VARCHAR NOT NULL,
   last_name VARCHAR NOT NULL,
-  phone_number INT NOT NULL
+  phone_number INT NOT NULL,
   address_id INT
 );
 
