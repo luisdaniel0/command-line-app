@@ -1,9 +1,4 @@
--- Addresses
-INSERT INTO addressesinfo (street_name,city,zipcode) VALUES ('Southside', 'Queens',12345);
-INSERT INTO addressesinfo (street_name,city,zipcode) VALUES ('Harlem', 'Manhattan',12394);
-INSERT INTO addressesinfo (street_name,city,zipcode) VALUES ('Walton','Bronx', 09876);
-INSERT INTO addressesinfo (street_name,city,zipcode) VALUES ('Leaf','Konoha',66666);
-INSERT INTO addressesinfo (street_name,city,zipcode) VALUES ('South Bronx','Bronx',12333);
+
 
 
 

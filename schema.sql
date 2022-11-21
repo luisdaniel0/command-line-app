@@ -11,9 +11,3 @@ CREATE TABLE contactsinfo (
 );
 
 
-CREATE TABLE addressesinfo (
-  id SERIAL PRIMARY KEY,
-  street_name VARCHAR NOT NULL,
-  city VARCHAR NOT NULL,
-  zipcode INT NOT NULL
-);
